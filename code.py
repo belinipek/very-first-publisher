@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 import rospy
-from std_msgs import String
+from std_msgs.msg import String
 
 def publisher():
     pub = rospy.Publisher("robotics_itu_first_topic",String,queue_size=10)
